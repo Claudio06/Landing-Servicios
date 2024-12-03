@@ -95,7 +95,7 @@ const filtros = () => {
           foto.classList.add("fotofiltro");
           foto.classList.remove("filtro");
         }  
-       
+        
         
       });
     });
@@ -137,6 +137,6 @@ d.addEventListener("DOMContentLoaded", () => {
   galeria();
   filtros();
   scroll();
-  animacion();
+  // animacion();
   
 });

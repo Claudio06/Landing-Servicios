@@ -164,7 +164,9 @@ li .link:hover::after {
   justify-content: center;
 }
 .fotosfiltros {
-  display: ruby;
+  display: flex;
+  justify-content: start;
+  align-content: start;
   margin: auto;
   padding: 2em;
   transition: visible 0.2s ease-in-out;
