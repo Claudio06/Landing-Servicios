@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/5.4.4/photoswipe.min.css"
+    />
+    
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="menu">
+        <div id="menumovil"><img src="Imagenes/menu.svg" alt="" /></div>
+        <img class="titleLogo" src="Imagenes/logo.png" alt="" />
+        <ul class="listamenu">
+          <img src="Imagenes/logo.png" alt="" class="logolista" />
+          <div id="close">
+            <img src="Imagenes/close-circle-line.svg" alt="" />
+          </div>
+          <li>
+            <a href="#galeria" class="link"> Galeria</a>
+          </li>
+          <li>
+            <a href="#Nosotros" class="link">Nosotros</a>
+          </li>
+          <li>
+            <a href="#Contacto" class="link">Conctacto </a>
+          </li>
+        </ul>
+      </nav>
+      <header class="banner">
+        <h1 class="titlecabecera">Desig and Performace</h1>
+        <img src="Imagenes/arrow-down-line.svg" alt="" id="imgheader" />
+      </header>
+      <section class="galeria" id="galeria">
+        <div class="btns">
+          <input type="button" value="all" />
+          <input type="button" value="paisajes" />
+          <input type="button" value="Autos" />
+          <input type="button" value="Remeras" />
+          <input type="button" value="Gente" />
+        </div>
+        <h2 class="titlegaleria">Galeria</h2>
+        <div class="fotos" id="my-gallery"></div>
+        
+      </section>
+       <section class="equipo" >
+        <div class="cardequipo" id="cardequipo">
+          <h3 class="title_equipo">Strategy</h3>
+          <img
+            src="Imagenes/checkmark-done-outline.svg"
+            alt=""
+            class="imgequipo"
+          />
+          <p class="infoequipo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aut
+            esse beatae nostrum sapiente atque fcipit consequatur quod?
+            Laboriosam, reiciendis? Aperiam, provident? Dolor voluptatem
+            architecto tempore explicabo perferendis vero dolorum.
+          </p>
+        </div>
+        <div class="cardequipo" id="cardequipo">
+          <h3 class="title_equipo">Strategy</h3>
+          <img
+            src="Imagenes/checkmark-done-outline.svg"
+            alt=""
+            class="imgequipo"
+          />
+          <p class="infoequipo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aut
+            esse beatae nostrum sapiente atque suscipit consequatur quod?
+            Laboriosam, reiciendis? Aperiam, provident? Dolor voluptatem
+            architecto tempore explicabo perferendis vero dolorum.
+          </p>
+        </div>
+        <div class="cardequipo" id="cardequipo">
+          <h3 class="title_equipo">Marketing</h3>
+          <img
+            src="Imagenes/checkmark-done-outline.svg"
+            alt=""
+            class="imgequipo"
+          />
+          <p class="infoequipo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aut
+            esse beatae nostrum sapiente atque suscipit consequatur quod?
+            Laboriosam, reiciendis? Aperiam, provident? Dolor voluptatem
+            architecto tempore explicabo perferendis vero dolorum.
+          </p>
+        </div>
+      </section> 
+      <section class="contacto" id="Contacto">
+        <div class="nosotros" id="Nosotros">
+          <h2 class="titlenosotros">Nosotros</h2>
+          <p class="infonosotros">
+            Mus sed interdum nunc dictum rutrum scelerisque erat a parturient
+            condimentum potenti dapibus vestibulum condimentum per tristique
+            porta. Torquent a ut consectetur a vel ullamcorper a commodo a
+            mattis ipsum class quam sed eros vestibulum quisque a eu nulla
+            scelerisque a elementum vestibulum.
+          </p>
+          <p class="infonosotros">
+            Aliquet dolor ultricies sem rhoncus dolor ullamcorper pharetra dis
+            condimentum ullamcorper rutrum vehicula id nisi vel aptent orci
+            litora hendrerit penatibus erat ad sit. In a semper velit eleifend a
+            viverra adipiscing a phasellus urna praesent parturient integer
+            ultrices montes parturient suscipit posuere quis aenean. Parturient
+            euismod ultricies commodo arcu elementum suspendisse id dictumst at
+            ut vestibulum conubia quisque a himenaeos dictum proin dis purus
+            integer mollis parturient eros scelerisque dis libero parturient
+            magnis.
+          </p>
+        </div>
+        <form action="" class="formulario">
+          <h2 class="titlecontacto">Escribinos</h2>
+          <label for="Nombre">
+            Nombre
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              required
+              autocomplete
+            />
+          </label>
+          <label for="email">
+            Email
+            <input type="email" name="email" id="email" required autocomplete />
+          </label>
+          <label>
+            Mensaje
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="12"
+              rows="5"
+              resize
+            ></textarea>
+          </label>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+      <section class="suscripcion">
+        <form action="" method="post" class="formulario_suscripicion">
+           <h3 class="title_suscripcion">
+             Sign up out the newsletter
+            </h3>
+            <hr>
+          <input type="email" name="email" id="email">
+          <button type="submit" class="btn_suscripcion">Suscribite</button>
+
+         </form>
+      </section>
+      <div id="scroll"><img src="Imagenes/arrow-up2.svg" alt="" /></div>
+  <a id="whats"><img src="Imagenes/whatsapp.svg" alt=""></a>
+      <footer class="piepagina">
+        <h2 class="titleredes">Nuestras redes</h2>
+        <ul class="redes">
+          <li>
+            <a
+            href="https://www.facebook.com">
+            <img src="Imagenes/facebook.svg" alt="" class="imgredes" />
+          </a>
+          </li>
+          <li>
+            <a href="https://www.gmail.com">
+              <img src="Imagenes/gmail.svg" alt="" class="imgredes" />
+            </a>
+          </li>
+          <li>
+            <img src="Imagenes/whatsapp.svg" alt="" class="imgredes" /><a
+              href=""
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com">    
+            <img src="Imagenes/instagram.svg" alt="" class="imgredes" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="photoSwiper.js" type="module"></script>
+    <script src="scrollReveal.js"></script>
+   
+    
+  </body>
+</html>
