@@ -164,11 +164,12 @@ li .link:hover::after {
   justify-content: center;
 }
 .fotosfiltros {
-  display:inline-flex;
-  justify-content: start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-content: start;
-  margin: auto;
-  padding: 2em;
+  margin:0;
+  padding-block: 2em;
   transition: visible 0.2s ease-in-out;
   width: 80%;
 }
