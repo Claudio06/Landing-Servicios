@@ -164,7 +164,7 @@ li .link:hover::after {
   justify-content: center;
 }
 .fotosfiltros {
-  display: flex;
+  display:inline-flex;
   justify-content: start;
   align-content: start;
   margin: auto;
