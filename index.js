@@ -100,6 +100,13 @@ const filtros = () => {
       });
     });
   });
+imagenes.filter( img => {
+
+console.log(
+  img.title === 'Gente'
+
+) 
+})
 };
 const scroll = () =>{
    const scroll = document.getElementById('scroll');
@@ -121,8 +128,8 @@ d.addEventListener('scroll', ()=>{
 const animacion = ()=>{
   const sr = ScrollReveal();
    sr.reveal('.listamenu',{ duration: 4000, origin: 'bottom' , distance: '-120px' })
-   sr.reveal('.titleLogo' , {duration: 4000, origen: 'rigth' })
-   sr.reveal('.galeria' , {duration:  3000, origen: 'top' })
+   sr.reveal('.titleLogo' , {duration: 4000, origen: 'rigth' , distance:'-150px' })
+   sr.reveal('.galeria' , {duration:  3000, origen: 'top' , distance: '300px' })
    sr.reveal('.equipo' , {duration: 4000, origen: 'rigth'})
    sr.reveal('.infonosotros' , {duration: 4000, origen: 'left' , distancia:'200px'
     });
@@ -130,13 +137,33 @@ const animacion = ()=>{
 
 
  
-}
+} 
+// const news =  async () =>{
+// const url = 'https://picsum.photos/v2/list';
+// const options = {
+// 	method: 'GET',
+// 	headers: {
+		
+// 	}
+// };
+
+// try {
+// 	const response = await fetch(url, options);
+// 	const result = await response.text();
+// 	console.log(result);
+// } catch (error) {
+// 	console.error(error);
+// }
+
+// }
 
 d.addEventListener("DOMContentLoaded", () => {
   nave();
   galeria();
   filtros();
   scroll();
-  // animacion();
-  
+  animacion();
+  // news();
+
+
 });
