@@ -126,12 +126,12 @@ d.addEventListener('scroll', ()=>{
 
 }
 const animacion = ()=>{
-  const sr = ScrollReveal();
-   sr.reveal('.listamenu',{ duration: 4000, origin: 'bottom' , distance: '-120px' })
-   sr.reveal('.titleLogo' , {duration: 4000, origen: 'rigth' , distance:'-150px' })
-   sr.reveal('.galeria' , {duration:  3000, origen: 'top' , distance: '300px' })
-   sr.reveal('.equipo' , {duration: 4000, origen: 'rigth'})
-   sr.reveal('.infonosotros' , {duration: 4000, origen: 'left' , distancia:'200px'
+    ScrollReveal();
+   ScrollReveal().reveal('.listamenu',{ duration: 4000, origin: 'bottom' , distance: '-120px' })
+   ScrollReveal().reveal('.titleLogo' , {duration: 4000, origen: 'rigth' , distance:'-150px' })
+   ScrollReveal().reveal('.galeria' , {duration:  3000, origen: 'top' , distance: '300px' })
+   ScrollReveal().reveal('.equipo' , {duration: 4000, origen: 'rigth'})
+   ScrollReveal().reveal('.infonosotros' , {duration: 4000, origen: 'left' , distancia:'200px'
     });
 
 
@@ -159,10 +159,10 @@ const animacion = ()=>{
 
 d.addEventListener("DOMContentLoaded", () => {
   nave();
-  galeria();
-  filtros();
-  scroll();
-  animacion();
+   galeria();
+   filtros();
+ scroll();
+   animacion();
   // news();
 
 
