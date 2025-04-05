@@ -89,6 +89,7 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 max-width: inherit;
+list-style: none;
 
 }
 .listamenu .logolista {
@@ -610,4 +611,11 @@ position: relative;
   .cardequipo{
   width: 90%;
   }
+  .btns {
+ flex-wrap: wrap;
+ gap: 1em;
+ padding: 0.5em;
+} .btns input {
+  flex: 1 0 45%;
+}
 }
